@@ -1,0 +1,100 @@
+.hosp_name{
+	font-size: 1.5rem;
+	margin: 50px 50px auto;
+	color: #204b83;
+}
+
+.login{
+
+	background: url(patient.jpg);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+body.register{
+ background: url(registration.jpg);
+ 
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.otp{
+
+	background: url(otp_bg.jpg);	
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.reset_pass{
+	background: url(med.jpg);
+	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.wrapper{
+margin: 140px auto;
+width: 40%;
+padding: 2rem;
+
+background: rgba(255, 255, 255, 0.705);
+border-radius: 10px;
+}
+
+ .title{
+font-family: Montserrat;
+text-align: center;
+font-size: 2rem;
+margin-bottom: 2rem;
+color: #386baf;
+ }
+ 
+ .description{
+	text-align: center;
+	font-size: 1.1rem;
+	margin-top: 1.2rem;
+ }
+ 
+ .txt_field{
+	 display:flex;
+	 flex-direction: column;
+	 margin: 1rem 0;
+ }
+ 
+ .fld_label{
+	 font-size: 1.2rem;
+	 margin-bottom: 0.2rem;
+}
+ 
+ .fld_inp{
+	 border: none;
+	background: #bdbcbc;
+	 border-radius: 5px;
+	 height: 1.2rem;
+	 padding: 1.2rem;
+ }
+ .text_fld.forgot_pass{
+	 position: relative;
+	 text-align: right; 
+ } 
+.butn{
+	margin:auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	background: #80B4B4;
+	border-radius: 5px;
+	padding: 0.8rem;
+	width: 60%;
+	font-family: inherit;
+}
+
+.error_msg {
+	color: #b12d2d;
+	text-transform: capitalize;
+    background: #ffb5b5;
+    border: #c76969 1px solid;
+}
+	
